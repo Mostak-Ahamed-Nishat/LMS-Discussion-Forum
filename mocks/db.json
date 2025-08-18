@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Sarah Chen",
+      "role": "student",
+      "avatarUrl": "/avatars/u1.png"
+    },
+    {
+      "id": "u2",
+      "name": "Prof. Johnson",
+      "role": "instructor",
+      "avatarUrl": "/avatars/u2.png"
+    }
+  ],
+  "courses": [
+    {
+      "id": "c1",
+      "title": "Frontend Development"
+    },
+    {
+      "id": "c2",
+      "title": "Web Performance"
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "courseId": "c1",
+      "authorId": "u1",
+      "title": "useEffect vs useLayoutEffect",
+      "body": "What are real cases for each?",
+      "tags": [
+        "react",
+        "hooks"
+      ],
+      "createdAt": "2025-08-18T10:00:00Z",
+      "updatedAt": "2025-08-18T10:00:00Z",
+      "status": {
+        "pinned": true,
+        "locked": false,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 8,
+      "downvotes": 1
+    },
+    {
+      "id": 2,
+      "courseId": "c1",
+      "authorId": "u2",
+      "title": "Next.js + Tailwind best practices",
+      "body": "Share your patterns.",
+      "tags": [
+        "nextjs",
+        "tailwind"
+      ],
+      "createdAt": "2025-08-18T12:00:00Z",
+      "updatedAt": "2025-08-18T12:00:00Z",
+      "status": {
+        "pinned": false,
+        "locked": false,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 5,
+      "downvotes": 0
+    },
+    {
+      "id": 3,
+      "courseId": "c2",
+      "authorId": "u1",
+      "title": "Measuring Web Vitals",
+      "body": "How do you collect in prod?",
+      "tags": [
+        "performance",
+        "web-vitals"
+      ],
+      "createdAt": "2025-08-17T09:00:00Z",
+      "updatedAt": "2025-08-17T09:00:00Z",
+      "status": {
+        "pinned": false,
+        "locked": true,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 2,
+      "downvotes": 0
+    },
+    {
+      "authorId": "u1",
+      "title": "This is test title",
+      "body": "This is test body",
+      "tags": [
+        "react",
+        "hooks"
+      ],
+      "status": {
+        "pinned": false,
+        "locked": false,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 0,
+      "downvotes": 0,
+      "createdAt": "2025-08-18T20:35:51.904Z",
+      "updatedAt": "2025-08-18T20:35:51.906Z",
+      "id": 4
+    }
+  ],
+  "replies": [
+    {
+      "id": 1,
+      "threadId": 1,
+      "parentId": null,
+      "authorId": "u2",
+      "body": "useLayoutEffect for measuring layout after paint.",
+      "createdAt": "2025-08-18T13:00:00Z",
+      "upvotes": 3,
+      "downvotes": 0,
+      "accepted": false
+    },
+    {
+      "id": 2,
+      "threadId": 1,
+      "parentId": 1,
+      "authorId": "u1",
+      "body": "Got it, thanks!",
+      "createdAt": "2025-08-18T14:00:00Z",
+      "upvotes": 1,
+      "downvotes": 0,
+      "accepted": false
+    }
+  ]
+}

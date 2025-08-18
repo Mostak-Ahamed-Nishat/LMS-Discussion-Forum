@@ -1,0 +1,9 @@
+{
+    "/api/*": "/$1",
+
+    "/threads/search/:q": "/threads?q=:q",
+    "/threads/tag/:tag": "/threads?tags_like=:tag",
+    "/threads/course/:courseId": "/threads?courseId=:courseId",
+    "/threads/:id/replies": "/replies?threadId=:id&_expand=author",
+    "/replies/thread/:threadId": "/replies?threadId=:threadId"
+}
