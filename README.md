@@ -44,31 +44,6 @@ The app uses **JSON Server** as a mock API, includes **zod validation** with `re
 
 ---
 
-## 📂 Project Structure
-├── app/
-│ └── courses/[courseId]/forum/ # Forum pages
-│ ├── page.tsx # Forum index
-│ └── new/page.tsx # Create new thread
-├── components/
-│ ├── forum/ # Forum-specific components
-│ ├── left/ # Left sidebar components
-│ ├── right/ # Right sidebar components
-│ └── form/TagInput.tsx # Tags input component
-├── lib/
-│ ├── api/ # API helpers (threads, courses, users)
-│ └── validations/thread.ts # zod schemas
-├── mocks/
-│ ├── db.json # Mock data
-│ └── server.js # JSON Server setup
-├── public/ # Static assets
-├── tailwind.config.js
-├── package.json
-└── README.md
-
-
-
----
-
 ## ⚡ Getting Started
 
 ### 1. Install dependencies
@@ -101,3 +76,4 @@ JSON Server: http://localhost:4000
 npm run build
 npm start
 ```
+## BEST OF LUCK
