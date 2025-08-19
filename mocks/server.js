@@ -63,5 +63,5 @@ server.use(router);
 
 const PORT = 4000;
 server.listen(PORT, () =>
-  console.log(`🟢 JSON Server on http://localhost:${PORT}`)
+  console.log(`JSON Server on http://localhost:${PORT}`)
 );

@@ -16,11 +16,18 @@
   "courses": [
     {
       "id": "c1",
-      "title": "Frontend Development"
+      "title": "Frontend Development",
+      "description": "Learn HTML, CSS, and JavaScript to build responsive and interactive web interfaces."
     },
     {
       "id": "c2",
-      "title": "Web Performance"
+      "title": "Web Performance",
+      "description": "Understand how to optimize website speed, load times, and overall user experience."
+    },
+    {
+      "id": "c3",
+      "title": "AI & ML Learning",
+      "description": "Learn Most Trending technology AI and ML and make your life secure"
     }
   ],
   "threads": [
@@ -41,8 +48,8 @@
         "locked": false,
         "acceptedAnswerId": null
       },
-      "upvotes": 8,
-      "downvotes": 1
+      "upvotes": 11,
+      "downvotes": 16
     },
     {
       "id": 2,
@@ -59,10 +66,10 @@
       "status": {
         "pinned": false,
         "locked": false,
-        "acceptedAnswerId": null
+        "acceptedAnswerId": 3
       },
-      "upvotes": 5,
-      "downvotes": 0
+      "upvotes": 50,
+      "downvotes": 32
     },
     {
       "id": 3,
@@ -81,8 +88,8 @@
         "locked": true,
         "acceptedAnswerId": null
       },
-      "upvotes": 2,
-      "downvotes": 0
+      "upvotes": 4,
+      "downvotes": 1
     },
     {
       "authorId": "u1",
@@ -102,6 +109,84 @@
       "createdAt": "2025-08-18T20:35:51.904Z",
       "updatedAt": "2025-08-18T20:35:51.906Z",
       "id": 4
+    },
+    {
+      "courseId": "c1",
+      "authorId": "u1",
+      "title": "",
+      "body": "",
+      "tags": [
+        "react"
+      ],
+      "status": {
+        "pinned": false,
+        "locked": false,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 5,
+      "downvotes": 1,
+      "views": 0,
+      "createdAt": "2025-08-19T16:22:28.001Z",
+      "updatedAt": "2025-08-19T16:22:28.001Z",
+      "id": 5
+    },
+    {
+      "courseId": "c1",
+      "authorId": "u1",
+      "title": "Ex optio deleniti s",
+      "body": "Culpa qui nemo provi",
+      "tags": [
+        "Cumque adipisci fugi"
+      ],
+      "status": {
+        "pinned": false,
+        "locked": false,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 0,
+      "downvotes": 0,
+      "views": 0,
+      "createdAt": "2025-08-19T16:28:53.740Z",
+      "updatedAt": "2025-08-19T16:28:53.740Z",
+      "id": 6
+    },
+    {
+      "courseId": "c1",
+      "authorId": "u1",
+      "title": "Pariatur Odit enim ",
+      "body": "Animi vel in eaque ",
+      "tags": [
+        "In tempor pariatur"
+      ],
+      "status": {
+        "pinned": false,
+        "locked": false,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 7,
+      "downvotes": 6,
+      "views": 0,
+      "createdAt": "2025-08-19T16:29:01.100Z",
+      "updatedAt": "2025-08-19T16:29:01.101Z",
+      "id": 7
+    },
+    {
+      "courseId": "c1",
+      "authorId": "u1",
+      "title": "Aut incididunt exerc",
+      "body": "<p>tHello wogas&nbsp; l;sdg lksagp gasdjk[ asdmbn asgd /m sadg'nasdg</p>",
+      "tags": [],
+      "status": {
+        "pinned": false,
+        "locked": false,
+        "acceptedAnswerId": null
+      },
+      "upvotes": 0,
+      "downvotes": 0,
+      "views": 0,
+      "createdAt": "2025-08-19T17:43:28.421Z",
+      "updatedAt": "2025-08-19T17:43:28.421Z",
+      "id": 8
     }
   ],
   "replies": [
@@ -126,6 +211,157 @@
       "upvotes": 1,
       "downvotes": 0,
       "accepted": false
+    },
+    {
+      "threadId": 2,
+      "parentId": 4,
+      "authorId": "u1",
+      "body": "",
+      "upvotes": 9,
+      "downvotes": 9,
+      "accepted": true,
+      "createdAt": "2025-08-19T11:29:23.346Z",
+      "updatedAt": "2025-08-19T11:29:23.346Z",
+      "id": 5
+    },
+    {
+      "threadId": 2,
+      "parentId": 5,
+      "authorId": "u1",
+      "body": "",
+      "upvotes": 0,
+      "downvotes": 0,
+      "accepted": true,
+      "createdAt": "2025-08-19T11:29:24.227Z",
+      "updatedAt": "2025-08-19T11:29:24.227Z",
+      "id": 6
+    },
+    {
+      "threadId": 2,
+      "parentId": 4,
+      "authorId": "u1",
+      "body": "",
+      "upvotes": 0,
+      "downvotes": 0,
+      "accepted": true,
+      "createdAt": "2025-08-19T11:29:24.753Z",
+      "updatedAt": "2025-08-19T11:29:24.753Z",
+      "id": 7
+    },
+    {
+      "threadId": 2,
+      "parentId": 4,
+      "authorId": "u1",
+      "body": "",
+      "upvotes": 0,
+      "downvotes": 0,
+      "accepted": true,
+      "createdAt": "2025-08-19T11:29:26.628Z",
+      "updatedAt": "2025-08-19T11:29:26.628Z",
+      "id": 8
+    },
+    {
+      "threadId": 2,
+      "parentId": 11,
+      "authorId": "u1",
+      "body": "teast",
+      "upvotes": 0,
+      "downvotes": 0,
+      "accepted": false,
+      "createdAt": "2025-08-19T13:25:09.528Z",
+      "updatedAt": "2025-08-19T13:25:09.528Z",
+      "id": 12
+    },
+    {
+      "upvotes": 0,
+      "downvotes": 0,
+      "accepted": false,
+      "threadId": 2,
+      "parentId": 13,
+      "authorId": "u1",
+      "body": "Test cooment",
+      "createdAt": "2025-08-19T13:50:44.268Z",
+      "updatedAt": "2025-08-19T13:50:44.268Z",
+      "id": 14
+    },
+    {
+      "upvotes": 0,
+      "downvotes": 0,
+      "accepted": false,
+      "threadId": 2,
+      "parentId": 13,
+      "authorId": "u1",
+      "body": "anoterh test comment",
+      "createdAt": "2025-08-19T13:50:53.764Z",
+      "updatedAt": "2025-08-19T13:50:53.764Z",
+      "id": 15
+    },
+    {
+      "upvotes": 0,
+      "downvotes": 0,
+      "accepted": false,
+      "threadId": 2,
+      "parentId": null,
+      "authorId": "u1",
+      "body": "Test comments",
+      "createdAt": "2025-08-19T13:58:46.519Z",
+      "updatedAt": "2025-08-19T13:58:46.519Z",
+      "id": 16
+    }
+  ],
+  "tags": [
+    {
+      "id": "react",
+      "label": "React",
+      "count": 120
+    },
+    {
+      "id": "nextjs",
+      "label": "Next.js",
+      "count": 85
+    },
+    {
+      "id": "tailwind",
+      "label": "Tailwind",
+      "count": 60
+    }
+  ],
+  "pinned": [
+    {
+      "id": 1,
+      "threadId": 1
+    },
+    {
+      "id": 2,
+      "threadId": 2
+    }
+  ],
+  "meetups": [
+    {
+      "id": 1,
+      "date": "FEB 7",
+      "title": "UIHUT - Crunchbase Company Profile",
+      "location": "Sylhet, BD",
+      "type": "Part-time"
+    },
+    {
+      "id": 2,
+      "date": "FEB 3",
+      "title": "Design Meetups USA | Dribbble",
+      "location": "Austin, TX",
+      "type": "Remote"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "title": "Selling a Business and Scaling",
+      "author": "Michele Hansen"
+    },
+    {
+      "id": 2,
+      "title": "Mental health as a founder",
+      "author": "James McKeen"
     }
   ]
 }
